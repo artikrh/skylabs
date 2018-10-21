@@ -76,7 +76,6 @@ $data = json_decode($json, true); ?>
 
 <?php endblock() ?>
 <?php startblock('scripts') ?>
-<!--<script>picofday();</script>-->
 <script>
 
     // Set the date we're counting down to
