@@ -22,6 +22,8 @@
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <?php startblock('style') ?>
+    <?php endblock() ?>
 
 </head>
 
@@ -40,7 +42,7 @@
             <div class="col-lg-8 col-md-10 mx-auto">
                 <ul class="list-inline text-center">
                     <li class="list-inline-item">
-                        <img src="img/logo.png" alt="logo"><span style="color: #fff; display: block">WE LIGHT YOUR WAY UP</span>
+                        <img src="img/logo.png" alt="logo"><span style="color: #fff; display: inline">WE LIGHT YOUR WAY UP</span>
                     </li>
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; Sky Labs 2018</p>
@@ -48,9 +50,6 @@
         </div>
     </div>
 </footer>
-
-
-
 
 <!-- Bootstrap core JavaScript -->
 <script
@@ -62,6 +61,9 @@
 <!-- Custom scripts for this template -->
 <script src="js/clean-blog.min.js"></script>
 <script src="js/scripts.js"></script>
+
+<?php startblock('scripts')?>
+<?php endblock()?>
 
 </body>
 

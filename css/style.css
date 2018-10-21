@@ -1,21 +1,10 @@
 /*NasaTV*/
-#twitter-widget-holder{
-    top:0;
-    right:0;
-    position:fixed;
-    height: 100%;
-    width: 40%;
+.stream{
+    position: relative;
+    padding: 15px 0px;
 }
-#left{
-    width: 60%;
-    height: 100%;
-    background-color: #0E1621;
-    position: fixed;
-}
-#footnotes{
-    margin-left: 1.5em;
-    margin-right: 1.7em;
-    color:white;
-    font-size: 130%;
-    text-align: justify;
+
+.stream #left iframe{
+    width: 100%;
+    height: 550px;
 }

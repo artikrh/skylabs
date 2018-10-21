@@ -1,4 +1,5 @@
 <?php include 'includes/app.php'?>
+
 <?php startblock('content')?>
 
 <!-- Page Header -->
@@ -6,7 +7,7 @@
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="col-lg-12 col-md-12 mx-auto">
                 <div class="site-heading">
                     <h1>00:00:00:00</h1>
                     <span class="subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti eligendi facilis fuga ipsa ipsum modi perferendis reprehenderit totam veniam. Ad est fuga hic inventore, quam quibusdam rerum tenetur ullam.</span>
@@ -46,3 +47,7 @@
 <hr>
 
 <?php endblock() ?>
+<?php startblock('scripts')?>
+<script>picofday();</script>
+
+<?php endblock()?>
