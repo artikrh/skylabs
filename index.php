@@ -58,7 +58,7 @@ $data = json_decode($json, true); ?>
                         echo $dateCounter2; ?>
                         <a href="<?php echo $data['results'][$x]['pad']['map_url']; ?>"
                            target="_blank"><?php echo $where = $data["results"][$x]["pad"]["location"]["name"]; ?></a>
-                        <br><span>Status: <?php echo $data["results"][$x]['status']['name']; ?></span>
+                        <br>Status: <span class="span-status"><?php echo $data["results"][$x]['status']['name']; ?></span>
                     </p>
                 </div>
             <?php } ?>

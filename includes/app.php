@@ -36,16 +36,16 @@
 <?php emptyblock('content') ?>
 
 <!-- Footer -->
-<footer style="padding: 0px 0px 10px;background-color: #2b2a26">
+<footer style="background-color: #2b2a26">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
                 <ul class="list-inline text-center">
                     <li class="list-inline-item">
-                        <img src="img/logo.png" alt="logo"><span style="color: #fff; display: inline">WE LIGHT YOUR WAY UP</span>
+                        <img src="img/logo-white.png" alt="logo">
                     </li>
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; Sky Labs 2018</p>
+<!--                <p class="copyright text-muted">Copyright &copy; Sky Labs 2018</p>-->
             </div>
         </div>
     </div>

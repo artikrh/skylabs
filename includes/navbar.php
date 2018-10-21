@@ -21,7 +21,7 @@
                     <a class="nav-link" href="nasatv.php">NASA TV</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="general.php">General Info</a>
+                    <a class="nav-link" href="generalinfo.php">General Info</a>
                 </li>
             </ul>
         </div>
