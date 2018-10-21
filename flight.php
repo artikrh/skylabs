@@ -50,7 +50,7 @@ $dateCounter1 = implode(" ", $dateCounter0);
 $dateCounter2 = substr($dateCounter1, 0, -1);
 
 if (!file_exists($pathName)) {
-    $pathName = "img/default.jpg";
+    $pathName = "img/default-img.jpg";
 }
 
 ?>
@@ -72,7 +72,7 @@ if (!file_exists($pathName)) {
                             <p><strong>Where:</strong> <?php echo $where; ?></p>
                             <p><strong>Rocket Name:</strong> <?php echo $rocketName; ?></p>
                             <p><strong>Rocket Service:</strong> <?php echo $rocketService; ?></p>
-                            <p><strong>Rocket Path:</strong> <?php echo $rocketPath; ?></p>
+                            <p><strong>Rocket Path:</strong> <a href="<?php echo $rocketPath; ?>"><?php echo $rocketPath; ?></a></p>
                             <p><strong>Mission:</strong> <?php echo $missionName; ?></p>
                             <p><strong>Mission Type:</strong> <?php echo $type; ?></p>
                             <p><strong>Orbit:</strong> <?php echo $orbit; ?></p>
@@ -95,8 +95,8 @@ if (!file_exists($pathName)) {
                 $infoUrl = $data2["launch_service_provider"]["info_url"];
                 $resources = $data2["launch_service_provider"]["wiki_url"];
                 $logoLPS = $data2["launch_service_provider"]["logo_url"];
-                if (!file_exists($pathName)) {
-                    $logoLPS = "img/prove.jpg";
+                if (empty($logoLPS)) {
+                    $logoLPS = "img/logo-default.png";
                 }
 
                 ?>
@@ -114,11 +114,11 @@ if (!file_exists($pathName)) {
                             <p><strong>Failed Launches:</strong> <?php echo $failed_launches;?></p>
                             <p><strong>Pending Launches:</strong> <?php echo $pending_launches;?></p>
                             <p><strong>Description:</strong> <?php echo $description;?></p>
-                            <p><strong>Official Website:</strong> <?php echo $infoUrl;?></p>
-                            <p><strong>Resources:</strong> <?php echo $resources;?></p>
+                            <p><strong>Official Website:</strong> <a href="<?php echo $infoUrl;?>"><?php echo $infoUrl;?></a></p>
+                            <p><strong>Resources:</strong> <a href="<?php echo $resources;?>"><?php echo $resources;?></a></p>
 
 
-                        </div>
+                        </div>1
                     </div>
                 </article>
             </div>

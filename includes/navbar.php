@@ -15,7 +15,7 @@
                     <a class="nav-link" href="upcomingflights.php">Upcoming flights</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="sitesports.php">Sites</a>
+                    <a class="nav-link" href="sites.php">Sites</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="nasatv.php">NASA TV</a>
