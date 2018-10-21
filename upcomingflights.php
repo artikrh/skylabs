@@ -38,16 +38,7 @@
         .flight-info p {
             margin: 0px !important;
         }
-        .btn{
-            background-color: #1B5CAC;
-            border-radius: 2px;
-            color: white;
-            text-decoration: none;
-            float: right;
-        }
-        .btn:hover{
-            color:white;
-        }
+
     </style>
 <?php endblock() ?>
 <?php
@@ -80,7 +71,7 @@ $data = json_decode($json, true); ?>
                         $pathName="img/default-img.jpg";
                     }
                     ?>
-                    
+
                     <article style="display: flex;padding: 20px 0px">
                         <div class="flight-img float-left">
 <!--                            --><?php //echo $pathName;?>
@@ -90,9 +81,9 @@ $data = json_decode($json, true); ?>
                             <h4> <?php echo $name; ?></h4>
                             <p><strong>Where:</strong> <?php echo $where ?></p>
                             <p><strong>When:</strong> <?php echo $dateCounter2 ?></p>
-                            <p><strong>Misson:</strong> <?php echo $fullDescription;?> </p>
+                            <p><strong>Mission:</strong> <?php echo $fullDescription;?> </p>
 <!--                            <p><strong></strong></p>-->
-                            <a class="btn" href=flight.php?id=<?php echo $id;?>>Read More</a>
+                            <a class="btn btn-primary float-right" href=flight.php?id=<?php echo $id;?>>Read More</a>
                         </div>
                     </article>
 

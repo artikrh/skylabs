@@ -5,7 +5,7 @@
 $json = file_get_contents("https://spacelaunchnow.me/3.2.0/launch/upcoming");
 $data = json_decode($json, true); ?>
 <!-- Page Header -->
-<header class="masthead" id="home-bg-img">
+<header class="masthead" id="home-bg-img" style="background-image: url('img/index-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -62,11 +62,11 @@ $data = json_decode($json, true); ?>
                     </p>
                 </div>
             <?php } ?>
-            <hr>
+
 
             <!-- Pager -->
             <div class="clearfix">
-                <a class="btn btn-primary float-right" href="#">See all upcoming flights &rarr;</a>
+                <a class="btn btn-primary float-right" href="upcomingflights.php">See all upcoming flights &rarr;</a>
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@ $data = json_decode($json, true); ?>
 
 <?php endblock() ?>
 <?php startblock('scripts') ?>
-<script>picofday();</script>
+<!--<script>picofday();</script>-->
 <script>
 
     // Set the date we're counting down to

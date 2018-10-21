@@ -31,7 +31,7 @@
 
 <?php require 'navbar.php' ?>
 
-<body>
+<body style="background-image: url('img/background2.jpg');background-attachment: scroll;-webkit-background-size: contain;-moz-background-size: contain;-o-background-size: contain;background-size: contain;"">
 
 <?php emptyblock('content') ?>
 
