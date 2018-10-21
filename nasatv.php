@@ -6,6 +6,12 @@
             background-color: #2b2a26 !important;
             position: relative;
         }
+        #mainNav .navbar-toggler{
+            color: #fff !important;
+        }
+        #mainNav .navbar-brand{
+            color: #fff !important;
+        }
 
     </style>
 <?php endblock() ?>
@@ -24,7 +30,7 @@
                             <p>NASA TV (originally NASA Select) is the television service of the United States government agency NASA (National Aeronautics and Space Administration). It is broadcast by satellite with a simulcast over the Internet.
                                 The network airs a large amount of educational programming, and provides live coverage of an array of manned missions (including the International Space Station), robotic missions, and domestic and international launches.
                             </p>
-                            <a href="https://www.nasa.gov/multimedia/nasatv/#public" style="right:0" target="_blank">View schedule</a>
+                            <a href="https://www.nasa.gov/multimedia/nasatv/#public" style="right:0;text-decoration: underline; margin-bottom: 10px;" target="_blank">View schedule</a>
                         </div>
                     </div>
                     <div id="twitter-widget-holder">
